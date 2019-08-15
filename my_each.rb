@@ -1,3 +1,11 @@
-def my_each # put argument(s) here
+array = [1, 2, 3, 4]
+def my_each(array) # put argument(s) here
+  i = 0 
+  while i < array.length do |i| 
+    puts i
+  end 
+
+
+
   # code here
 end
